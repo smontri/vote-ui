@@ -3,6 +3,7 @@ kind: Service
 metadata:
   labels:
     app: vote-ui
+    app.kubernetes.io/instance: vote-ui
   name: vote-ui
 spec:
   type: NodePort
